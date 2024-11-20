@@ -1,0 +1,12 @@
+<h1>TO DO</h1>
+<form method="POST" action="/">
+    {{form.as_ul}}
+    
+    <input type = "submit" name="CreatebTasks">
+</form>
+{% for task in tasks %}
+   <div>
+    <p>{{task}}</p>
+   </div>
+
+{% endfor %}
